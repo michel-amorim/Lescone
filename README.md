@@ -1,4 +1,4 @@
-# Le-scone
+# Le Scone
 
 Aplicando conhecimentos em CSS com SASS
 
