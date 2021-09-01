@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"scss/style.scss",
+		"scss/_grid.scss"
+	],
+	"sourcesContent": [
+		"@import \"grid\";\r\n",
+		".container {\r\n  width: 1200px;\r\n  margin: 0 auto;\r\n  background: blue;\r\n  &::after,\r\n  &::before {\r\n    content: \"\";\r\n    display: table;\r\n    clear: both;\r\n  }\r\n}\r\n\r\n.grid-3 {\r\n  width: 280px;\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n  color: white;\r\n  float: left;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI;CAOjB;;;AAVD,AAIE,UAJQ,AAIP,OAAO,EAJV,UAAU,AAKP,QAAQ,CAAC;EACR,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;CACZ;;;AAGH,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,gBAAgB,EAAE,kBAAkB;EACpC,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,IAAI;CACZ"
+}
